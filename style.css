@@ -23,13 +23,33 @@ header h1 {
   color: #ffd500;
 }
 
-.details-box {
-  background: #1a1a1a;
-  padding: 14px;
-  border-radius: 8px;
-  margin-bottom: 25px;
-  border-left: 3px solid #ffd500;
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
 }
+
+.details-table th {
+  text-align: left;
+  width: 32%;
+  padding: 10px;
+  color: #000;
+  background: #ffd500;
+  font-size: 14px;
+}
+
+.details-table td {
+  padding: 10px;
+  background: #1a1a1a;
+  color: #f6e58d;
+  border-left: 2px solid #ffd500;
+  font-size: 14px;
+}
+
+.details-table tr {
+  border-bottom: 1px solid #333;
+}
+
 
 .details-box h2,
 .map-section h2,
