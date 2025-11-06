@@ -1,0 +1,87 @@
+/* Dark + Yellow Minimalist Theme */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f0f0f;
+  color: #f6e58d;
+  line-height: 1.6;
+  padding: 15px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #ffd500;
+}
+
+.details-box {
+  background: #1a1a1a;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border-left: 3px solid #ffd500;
+}
+
+.details-box h2,
+.map-section h2,
+.photo-gallery h2 {
+  color: #ffd500;
+  margin-bottom: 8px;
+}
+
+.details-box ul {
+  list-style: none;
+}
+
+.details-box ul li {
+  padding: 5px 0;
+}
+
+.map-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.map-section a {
+  background: #ffd500;
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.photo-gallery {
+  margin-bottom: 30px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* Portrait images (9:16 ratio) */
+.grid img {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid #ffd500;
+}
+
+/* Horizontal (landscape) images (full width) */
+.grid img.wide {
+  grid-column: span 3;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
