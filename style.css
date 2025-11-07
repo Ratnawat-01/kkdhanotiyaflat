@@ -105,3 +105,30 @@ header h1 {
   aspect-ratio: 16 / 9;
   height: auto;
 }
+
+footer {
+  text-align: center;
+  background: #1a1a1a;
+  padding: 22px;
+  border-radius: 12px;
+  border: 2px solid #ffd500;
+  font-size: 18px; /* Increased size */
+}
+
+footer h3 {
+  font-size: 22px;
+  color: #ffd500;
+  margin-bottom: 8px;
+}
+
+footer p {
+  font-size: 18px;
+  color: #ffffff; /* Better contrast */
+}
+
+footer a {
+  color: #ffffff !important;  /* override default blue */
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
